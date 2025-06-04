@@ -9364,6 +9364,12 @@ form .lside label {
     padding: 0 var(--container-offset);
 }
 
+@media(max-width: 1730px) {
+	.container-fluid {
+		max-width: 1440px;
+	}
+}
+
 .container-block {
   max-width: var(--container-width);
   margin: 0 auto;
